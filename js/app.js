@@ -43,8 +43,10 @@ let averiguarNumer1 = prompt("ingrese un numero para saber cual es mayor");
 let averiguarNumer2 = prompt("ingrese otro numero para comparar ");
 if (averiguarNumer1 > averiguarNumer2) {
   document.write("el numero mayor era " + averiguarNumer1+"<br>");
-} else {
+} else if (averiguarNumer1 > averiguarNumer2){
   document.write("el numero mayor era " + averiguarNumer2+"<br>");
+} else {
+  document.write("los numeros eran igules")
 }
 //ejemplo 7
 let averiguaNumer1 = prompt("ingrese un numero para saber cual es mayor");
